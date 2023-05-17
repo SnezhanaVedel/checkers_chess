@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="night_mode"
+        android:title="@string/dark_theme"
+        android:icon="@drawable/baseline_nights_stay_24"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:key="locale"
+        android:title="Сменить язык приложения"
+        android:entries="@array/languages"
+        android:entryValues="@array/languages"
+        android:icon="@drawable/baseline_translate_24"
+        />
+
+
+
+</PreferenceScreen>

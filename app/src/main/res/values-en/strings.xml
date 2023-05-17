@@ -1,0 +1,99 @@
+<resources>
+
+    <string name="choose_language">Select a language</string>
+    <string-array name="languages">
+        <item>Russian</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="locale">Язык</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">Английский</string>
+
+    <string name="choose_theme">Select the application theme</string>
+    <string-array name="theme">
+        <item>Light theme</item>
+        <item>Dark theme</item>
+    </string-array>
+
+    <string name="light_theme">Light theme</string>
+    <string name="dark_theme">Dark theme</string>
+
+    <string name="pref_key_theme">theme_preference</string>
+
+
+    <string name="rules_chess">
+        Chess is a strategic board game for two players who move their pieces on a game
+        board with the goal of capturing the opponent king.\n\n
+        The game is played on a square board consisting of 64 squares arranged in 8 rows with 8 squares in each row.\n\n
+        Each player controls an army of 16 pieces: a king, a queen, two rooks, two knights, two bishops, and eight pawns.\n\n
+        The objective of the game is to threaten the opponent king with a "check" in such a way that the opponent cannot prevent its capture.\n\n
+        The pieces have different abilities to move:\n\n
+        The king can move to an adjacent square in any direction.\n
+        The queen can move any number of squares vertically, horizontally, or diagonally.\n
+        The rook can move any number of squares vertically or horizontally.\n
+        The bishop can move any number of squares diagonally.\n
+        The knight can move to a square that is two squares horizontally or vertically and then one square perpendicular to that.\n
+        The pawn can move forward one square or, on its first move, two squares. It can capture opponent pieces by moving diagonally one square.\n
+        Players take turns, starting with the player controlling the white pieces.\n\n
+        A move consists of moving one piece to a vacant square according to its movement rules.\n\n
+        If a piece lands on a square occupied by an opponent piece, it captures the opponent piece, and the opponent removes it from the board.\n\n
+        If the king is threatened with a check, the player must prevent its capture by moving the king or defending it with another piece.\n\n
+        If the king cannot be saved from capture, it is declared "checkmate," and the game ends in favor of the opponent.
+    </string>
+
+    <string name="rules_checkers">
+        The game board of checkers consists of a 64-square grid, arranged in 8 rows of 8 squares each.
+        The initial setup of the game is as follows: black checkers occupy the bottom three rows,
+        and white checkers occupy the top three rows.\n\n
+        The objective of the game is to capture or block all of the opponent checkers.\n\n
+        Checkers can only move diagonally to an empty square in a forward direction (opposite to the
+        color of the checkers).\n\n
+        A regular checker can move one square forward diagonally. It cannot move backward unless it
+        becomes a king.\n\n
+        When a checker reaches the last row of the opponent side, it becomes a king. A king can
+        move both forward and backward diagonally.\n\n
+        A checker can capture an opponent checker if there is an empty square behind it and there
+        is an empty square on the opposite diagonal after the opponent checker. In this case, the
+        checker jumps over the opponent checker and occupies the empty square behind it. If there
+        is another capture opportunity after capturing one checker, the player can continue capturing
+        in the same turn.\n\n
+        If a checker reaches the edge of the board and there are no obstacles on the opposite diagonal,
+        it becomes a king.\n\n
+        Players take turns moving their checkers. A move consists of moving one of their checkers to
+        an adjacent empty square.\n\n
+        If a player cannot make a move, their turn is skipped. If a player cannot make a move multiple
+        times in a row, they lose the game.\n\n
+        The game ends when one of the players captures or blocks all of the opponent checkers.\n\n
+    </string>
+
+    <string name="app_name">Сheckers &amp; Сhess</string>
+    <string name="settings">Settings</string>
+    <string name="CheckersChess">Checkers &amp; Chess</string>
+    <string name="playsCheckers">Play Checkers</string>
+    <string name="playsChess">Play Chess</string>
+    <string name="exitMain">Exit</string>
+    <string name="statistics">Statistics</string>
+
+    <string name="languageSettings">Language</string>
+    <string name="designSettings">Design</string>
+    <string name="themeSettings">Theme</string>
+    <string name="back">Back</string>
+
+    <string name="lvl1">Easy level:</string>
+    <string name="lvl2">Average level:</string>
+    <string name="lvl3">Difficult level:</string>
+
+    <string name="chess">Сhess</string>
+    <string name="play">Play</string>
+    <string name="rules">Rules</string>
+    <string name="difficultyLevel">Difficulty level</string>
+
+    <string name="checkers">Checkers</string>
+
+    <string name="time">Time</string>
+
+    <string name="switch_theme_summary">Enable dark theme</string>
+
+
+</resources>

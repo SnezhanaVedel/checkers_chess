@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/styleItem"
+        android:title="Стиль"
+        android:icon="@drawable/icon_menu"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/colorItem"
+                android:title="Цвет фона"
+                app:showAsAction="never" >
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/redItem"
+                            android:title="Красный"
+                            app:showAsAction="never" />
+                        <item
+                            android:id="@+id/yellowItem"
+                            android:title="Жёлтый"
+                            app:showAsAction="never" />
+                        <item
+                            android:id="@+id/blueItem"
+                            android:title="Синий"
+                            app:showAsAction="never" />
+                    </group>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/toastItem"
+        android:title="Toast"
+        app:showAsAction="never"
+        />
+</menu>

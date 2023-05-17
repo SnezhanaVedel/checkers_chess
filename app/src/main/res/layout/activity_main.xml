@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    https://github.com/RomainPiel/Shimmer-android-->
+
+<!--    <com.romainpiel.shimmer.ShimmerTextView-->
+<!--        android:id="@+id/shimmer_tv"-->
+<!--        android:text="алвоыгарыво"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:textColor="#444"-->
+<!--        android:textSize="50sp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/CheckersChess"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/CheckersChess"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/playsCheckersBtn"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        />-->
+
+
+
+        <ImageButton
+            android:id="@+id/playsCheckersBtn"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/play_checkers_icon"
+            android:scaleType="centerInside"
+
+            android:background="@drawable/round_outline"
+            android:backgroundTint="@color/defaultBGcolor"
+            android:tint="@color/colorForeground"
+            android:padding="35dp"
+
+            android:elevation="15dp"
+            android:outlineSpotShadowColor="@color/black"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/playsChessBtn"
+
+            tools:ignore="UseAppTint" />
+
+    <ImageButton
+        android:id="@+id/playsChessBtn"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/play_chess_icon"
+        android:scaleType="centerInside"
+
+        android:background="@drawable/round_outline"
+        android:backgroundTint="@color/defaultBGcolor"
+        android:tint="@color/colorForeground"
+        android:padding="30dp"
+
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/exitMainBtn"
+
+        tools:ignore="UseAppTint" />
+
+<!--        <ImageButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_marginEnd="40dp"-->
+<!--            android:src="@drawable/play_chess_icon"-->
+<!--            android:scaleType="centerInside"-->
+<!--            />-->
+
+
+
+<!--            ЭТО БАЗА-->
+<!--    <Button-->
+<!--        android:id="@+id/playsCheckersBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:text="@string/playsCheckers"-->
+<!--        style="@style/myBtn"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/playsChessBtn"-->
+
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/playsChessBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:text="@string/playsChess"-->
+<!--        style="@style/myBtn"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/statisticsBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:layout_marginTop="90dp"-->
+<!--        android:text="@string/statistics"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/playsChessBtn"-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/exitMainBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/exitMain"
+        style="@style/myBtn"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

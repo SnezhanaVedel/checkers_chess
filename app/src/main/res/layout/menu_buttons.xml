@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/menu_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Игра"
+        android:textColor="@color/colorForeground"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        />
+
+    <ImageButton
+        android:id="@+id/back_arrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/back_arrow"
+
+        android:layout_marginEnd="10dp"
+        android:tint="@color/colorForeground"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/back_refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="UseAppTint" />
+
+    <ImageButton
+        android:id="@+id/back_refresh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:tint="@color/colorForeground"
+        android:src="@drawable/back_refresh"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="UseAppTint"
+        android:onClick="startTimer"
+        />
+
+    <ImageButton
+        android:id="@+id/rulers"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/rulers"
+
+        android:layout_marginEnd="10dp"
+        android:tint="@color/colorForeground"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/back_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="UseAppTint"
+        android:onClick="startTimer"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
